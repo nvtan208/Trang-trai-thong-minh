@@ -46,12 +46,16 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 ## ✨ Tính năng
 
 ### 🧠 Công nghệ AI tiên tiến
-- **Nhận diện giọng nói**: AI chuyển giọng nói thành văn bản (Google STT), nhận diện lệnh điều khiển.
+- **Nhận diện giọng nói**: Chuyển đổi giọng nói thành lệnh điều khiển.
+- **Xử lý ngữ cảnh**: Xác định hành động phù hợp với từng câu lệnh
 
 ### ⚡ Kiến trúc hiệu suất cao
 - **Giao tiếp I2C**: UNO gửi dữ liệu nhanh chóng về ESP32 Master.
-- **Xử lý thời gian thực**: Cập nhật dữ liệu liên tục trên giao diện web.
-- **Cảnh báo tức thời**: Hệ thống báo động khi có sự cố.
+- **Kết nối WebSocket**: ESP32 gửi dữ liệu lên website theo thời gian thực
+
+### 📊 Giám sát toàn diện
+- **Cảnh báo tự động**: Khi mức nước thấp, khí gas vượt ngưỡng
+- **Giao diện trực quan**: Hiển thị trạng thái thiết bị và thông tin môi trường
 
 ## 🔧 Công nghệ sử dụng
 
