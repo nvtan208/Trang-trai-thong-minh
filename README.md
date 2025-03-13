@@ -38,7 +38,7 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 ### 🧠 Công nghệ AI tiên tiến
 - **Nhận diện giọng nói**: Chuyển đổi giọng nói thành lệnh điều khiển.
-- **Xử lý ngữ cảnh**: Xác định hành động phù hợp với từng câu lệnh
+- **Xử lý ngữ cảnh**: Xác định hành động phù hợp với từng câu lệnh.
 
 ### ⚡ Kiến trúc hiệu suất cao
 - **Giao tiếp I2C**: UNO gửi dữ liệu nhanh chóng về ESP32 Master.
