@@ -1,4 +1,4 @@
-# 🎓 TRANG TRẠI THÔNG MINH
+#  TRANG TRẠI THÔNG MINH
 
 <div align="center">
 
