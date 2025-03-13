@@ -131,9 +131,26 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 | Còi báo động (Buzzer) | Chân dương (+)      | D6                  | Kích hoạt còi khi vượt ngưỡng |
 |                       | Chân âm (-)         | GND                 |                               |
 
+**Kết nối I2C giữa Arduino UNO & ESP32**
+
+| Thiết bị                                   | Chân trên thiết bị | Kết nối ESP32  | Ghi chú               |
+|--------------------------------------------|--------------------|----------------|-----------------------|
+| Arduino UNO #1 (Hẹn giờ, động cơ, đèn)     | SDA (A4)           | GPIO 21 (SDA)  | I2C giao tiếp ESP32   |
+|                                            | SCL (A5)           | GPIO 22 (SCL)  | I2C giao tiếp ESP32   |
+| Arduino UNO #2 (Cảm biến nước & bơm)       | SDA (A4)           | GPIO 21 (SDA)  | I2C giao tiếp ESP32   |
+|                                            | SCL (A5)           | GPIO 22 (SCL)  | I2C giao tiếp ESP32   |
+| Arduino UNO #3 (MQ-135 & còi báo)          | SDA (A4)           | GPIO 21 (SDA)  | I2C giao tiếp ESP32   |
+|                                            | SCL (A5)           | GPIO 22 (SCL)  | I2C giao tiếp ESP32   |
+
+
+📌 **Ghi chú:**  
+✔ **ESP32 là thiết bị trung tâm**, thu dữ liệu từ **3 Arduino UNO** qua **I2C** và điều khiển thiết bị qua WebSocket.  
+✔ **ESP32-CAM gửi dữ liệu video**, đẩy lên giao diện web.  
+✔ **Các cảm biến gửi dữ liệu về UNO**, UNO truyền dữ liệu qua ESP32 để hiển thị trên web.  
   
 ### ⭐️ BẢNG MẠCH CẢ MÔ HÌNH
-  ĐANG UPDATE
+
+**🛎SƠ ĐỒ ĐANG UPDATE**
   
 ## 📥 Cài đặt
 
