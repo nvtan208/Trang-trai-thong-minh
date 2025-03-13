@@ -95,7 +95,7 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 1. **Cài đặt thư viện Python**
    ```bash
-   pip install flask flask-socketio google-cloud-speech
+   pip install flask flask-socketio opencv-python
    ```
 2. **Nạp code vào ESP32 & Arduino**
    - Sử dụng Arduino IDE nạp code cho UNO.
