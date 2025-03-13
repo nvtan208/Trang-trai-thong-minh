@@ -38,9 +38,9 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 - **ESP32 (Master)**: Nhận dữ liệu từ các Arduino UNO, gửi lên website qua Flask + WebSocket.
 - **UNO1**: Hiển thị thời gian thực, hẹn giờ cho lợn ăn bằng động cơ bước và vít tải. Bật đèn tự động dựa trên cảm biến LDR.
-- **UNO2**: Đo nhiệt độ, độ ẩm (DHT11), đo mực nước máng (Water Sensor). Tự động bơm nước khi dưới ngưỡng.
+- **UNO2**: Đo nhiệt độ, độ ẩm (DHT11), đo mực nước trong máng (Water Sensor). Tự động bơm nước khi dưới ngưỡng.
 - **UNO3**: Cảm biến khí gas MQ135, cảnh báo bằng còi khi vượt ngưỡng.
-- **ESP32-CAM**: Giám sát chuồng lợn bằng video stream.
+- **ESP32-CAM**: Giám sát chuồng lợn qua video trực tiếp.
 - **AI (Google Speech-to-Text)**: Nhận diện giọng nói để điều khiển máy bơm, động cơ bước và đèn LED.
 
 ## ✨ Tính năng
