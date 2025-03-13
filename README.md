@@ -47,13 +47,11 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 ### 🧠 Công nghệ AI tiên tiến
 - **Nhận diện giọng nói**: AI chuyển giọng nói thành văn bản (Google STT), nhận diện lệnh điều khiển.
-- **Tích hợp WebSocket**: Điều khiển thiết bị từ xa qua website.
-- **Giám sát thông minh**: Thu thập dữ liệu từ cảm biến, tự động hóa quá trình chăn nuôi.
 
 ### ⚡ Kiến trúc hiệu suất cao
 - **Giao tiếp I2C**: UNO gửi dữ liệu nhanh chóng về ESP32 Master.
 - **Xử lý thời gian thực**: Cập nhật dữ liệu liên tục trên giao diện web.
-- **Cảnh báo tức thời**: Hệ thống báo động khi có sự cố (khí gas, nước cạn, nhiệt độ cao).
+- **Cảnh báo tức thời**: Hệ thống báo động khi có sự cố khí gas.
 
 ## 🔧 Công nghệ sử dụng
 
