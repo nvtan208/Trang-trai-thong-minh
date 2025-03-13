@@ -8,7 +8,7 @@
 </p>
 
 [![Made by AIoTLab](https://img.shields.io/badge/Made%20by%20AIoTLab-blue?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
-[![FIT DNU](https://img.shields.io/badge/green?style=for-the-badge)](https://fitdnu.net/)
+[![Fit DNU](https://img.shields.io/badge/Fit%DNU-green?style=for-the-badge)](https://fit.dainam.edu.vn)
 [![DaiNam University](https://img.shields.io/badge/DaiNam%20University-red?style=for-the-badge)](https://dainam.edu.vn)
 
 </div>
