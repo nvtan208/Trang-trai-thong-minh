@@ -19,15 +19,6 @@
   <strong>Giải pháp ứng dụng IoT và AI vào chăn nuôi hiện đại</strong>
 </p>
 
-<p align="center">
-  <a href="#-architecture">Hệ thống</a> •
-  <a href="#-key-features">Tính năng</a> •
-  <a href="#-tech-stack">Công nghệ</a> •
-  <a href="#-installation">Cài đặt</a> •
-  <a href="#-getting-started">Bắt đầu</a> •
-  <a href="#-documentation">Tài liệu</a>
-</p>
-
 ## 🏗️ Hệ thống
 
 <p align="center">
@@ -128,10 +119,8 @@ print(get_data())
 
 ## 📝 Giấy phép
 
-© 2025 AIoTLab, Khoa CNTT, Đại học Đại Nam. Bản quyền thuộc về nhóm phát triển.
+© 2025 NHÓM 8, CNTT16-02, ĐẠI HỌC ĐẠI NAM
 
 ---
 
 <div align="center">
-
-### 🚀 Được
