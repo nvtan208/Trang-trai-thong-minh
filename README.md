@@ -64,14 +64,23 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 [![ESP32-CAM](https://img.shields.io/badge/ESP32--CAM-ff69b4?style=for-the-badge)]()
 [![I2C Communication](https://img.shields.io/badge/I2C%20Communication-gray?style=for-the-badge)]()
 
-
-
 ### Phần mềm
 [![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![WebSocket](https://img.shields.io/badge/WebSocket-0078D7?style=for-the-badge)]()
 [![Google Speech-to-Text](https://img.shields.io/badge/Google%20STT-yellow?style=for-the-badge)](https://cloud.google.com/speech-to-text)
 
 </div>
+
+## 🌍 BẢNG MẠCH
+
+### ⭐️ UNO1
+  ĐANG UPDATE
+### ⭐️ UNO2
+  ĐANG UPDATE
+### ⭐️ UNO3
+  ĐANG UPDATE
+### ⭐️ BẢNG MẠCH CẢ MÔ HÌNH
+  ĐANG UPDATE
 
 ## 📥 Cài đặt
 
@@ -98,24 +107,7 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
    ```
 
 ## 🚀 Bắt đầu sử dụng
-
-### 📡 Gửi lệnh giọng nói
-```python
-from speech_control import send_command
-send_command("bật đèn")
-```
-
-### 📊 Xem dữ liệu cảm biến
-```python
-from get_sensor_data import get_data
-print(get_data())
-```
-
-## 📚 Tài liệu
-
-- 📖 [Hướng dẫn cài đặt](docs/installation.md)
-- 🎛 [Cấu hình ESP32 & Arduino](docs/esp32-arduino.md)
-- 🤖 [Sử dụng AI nhận diện giọng nói](docs/speech-ai.md)
+  ĐANG UPDATE
 
 ## 📝 Giấy phép
 
