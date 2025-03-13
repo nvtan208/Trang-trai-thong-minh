@@ -14,7 +14,7 @@
 
 </div>
 
-<h3 align="center">🔬 Advanced Academic Integrity Through AI Innovation</h3>
+<h3 align="center">🔬 Hệ thống nuôi lợn thông minh kết hợp với AI để điều khiến thiết bị</h3>
 
 <p align="center">
   <strong>A Next-Generation Plagiarism Detection System Powered by Deep Learning and Vector Search Technology</strong>
