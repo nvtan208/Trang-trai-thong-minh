@@ -75,9 +75,9 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 ### ⭐️ UNO1
 
-**SƠ ĐỒ ĐANG UPDATE**
+**🛎SƠ ĐỒ ĐANG UPDATE**
 
-**BẢNG HƯỚNG DẪN CẮM DÂY**
+**🎲BẢNG HƯỚNG DẪN CẮM DÂY**
 | Thiết bị                | Chân trên thiết bị   | Kết nối Arduino UNO    | Ghi chú                 |
 |-------------------------|----------------------|------------------------|-------------------------|
 | RTC DS1302              | VCC                  | 5V                     | Cấp nguồn               |
@@ -100,9 +100,9 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 ### ⭐️ UNO2
 
-**SƠ ĐỒ ĐANG UPDATE**
+**🛎SƠ ĐỒ ĐANG UPDATE**
 
-**BẢNG HƯỚNG DẪN CẮM DÂY**
+**🎲BẢNG HƯỚNG DẪN CẮM DÂY**
 | Thiết bị             | Chân kết nối    | Kết nối đến        | Ghi chú                    |
 |----------------------|---------------|------------------|--------------------------------|
 | Cảm biến mực nước    | VCC           | 5V               | Cấp nguồn cho cảm biến         |
@@ -120,9 +120,9 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 ### ⭐️ UNO3
 
-**SƠ ĐỒ ĐANG UPDATE**
+**🛎SƠ ĐỒ ĐANG UPDATE**
 
-**BẢNG HƯỚNG DẪN CẮM DÂY**
+**🎲BẢNG HƯỚNG DẪN CẮM DÂY**
 | Thiết bị              | Chân trên thiết bị  | Kết nối Arduino UNO | Ghi chú                       |
 |-----------------------|---------------------|---------------------|-------------------------------|
 | Cảm biến khí MQ-135   | VCC                 | 5V                  | Cấp nguồn                     |
