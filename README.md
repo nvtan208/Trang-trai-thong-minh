@@ -74,8 +74,10 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 ## 🌍 BẢNG MẠCH
 
 ### ⭐️ UNO1
-  ĐANG UPDATE
-  
+
+### SƠ ĐỒ ĐANG UPDATE
+
+### BẢNG HƯỚNG DẪN CẮM DÂY
 | Thiết bị                | Chân trên thiết bị   | Kết nối Arduino UNO    | Ghi chú                 |
 |-------------------------|----------------------|------------------------|-------------------------|
 | RTC DS1302              | VCC                  | 5V                     | Cấp nguồn               |
@@ -97,8 +99,10 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 
 ### ⭐️ UNO2
-  ĐANG UPDATE
-  
+
+### SƠ ĐỒ ĐANG UPDATE
+
+### BẢNG HƯỚNG DẪN CẮM DÂY
 | Thiết bị             | Chân kết nối    | Kết nối đến        | Ghi chú                    |
 |----------------------|---------------|------------------|--------------------------------|
 | Cảm biến mực nước    | VCC           | 5V               | Cấp nguồn cho cảm biến         |
@@ -115,7 +119,18 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 |                      | Cực âm bơm    | Cực âm nguồn     | Hoàn tất mạch điện             |
 
 ### ⭐️ UNO3
-  ĐANG UPDATE
+### SƠ ĐỒ ĐANG UPDATE
+
+### BẢNG HƯỚNG DẪN CẮM DÂY
+| Thiết bị              | Chân trên thiết bị  | Kết nối Arduino UNO | Ghi chú                       |
+|-----------------------|---------------------|---------------------|-------------------------------|
+| Cảm biến khí MQ-135   | VCC                 | 5V                  | Cấp nguồn                     |
+|                       | GND                 | GND                 |                               |
+|                       | A0                  | A0                  | Đọc giá trị khí gas           |
+| Còi báo động (Buzzer) | Chân dương (+)      | D6                  | Kích hoạt còi khi vượt ngưỡng |
+|                       | Chân âm (-)         | GND                 |                               |
+
+  
 ### ⭐️ BẢNG MẠCH CẢ MÔ HÌNH
   ĐANG UPDATE
 
