@@ -87,7 +87,7 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 ### 🛠️ Yêu cầu hệ thống
 
 - 🐍 **Python** `3.8+`
-- 📡 **ESP32 & Arduino IDE**
+- 📡 **ESP32, Arduino Uno R3 & Arduino IDE**
 - 💾 **RAM** `4GB+`
 - 📶 **WiFi** kết nối internet
 
