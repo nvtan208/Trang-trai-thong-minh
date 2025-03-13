@@ -32,7 +32,7 @@
 ## 🏗️ Architecture
 
 <p align="center">
-  <img src="docs/images/architecture.JPG" alt="System Architecture" width="800"/>
+  <img src="images/HeThong.png" alt="System Architecture" width="800"/>
 </p>
 
 The system employs a three-tier architecture:
