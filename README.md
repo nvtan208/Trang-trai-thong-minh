@@ -163,19 +163,38 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 ### ⚙️ Thiết lập môi trường
 
-1. **Cài đặt thư viện Python**
+1. **Cài đặt thư viện Python (app.py)**
    ```bash
    pip install flask flask-socketio opencv-python
    ```
+   
 2. **Nạp code vào ESP32 & Arduino**
    - Sử dụng Arduino IDE nạp code cho UNO.
    - Sử dụng ESP-IDF hoặc Arduino IDE để nạp code cho ESP32.
 
-3. **Chạy Server Flask**
+3. **Cấu hình ESP32 và Flask Server (ESP32.ino)**
+   ```cpp
+   const char* ssid = "TenWiFi"; 
+   const char* password = "MatKhau"; 
+   const char* server_url = "http://localhost:5000/update";  // Địa chỉ Flask server
+   ```
+
+4. **Cấu hình CameraWebServer (CameraWebServer.ino)**
+   ```cpp
+   const char* ssid = "TenWiFi"; 
+   const char* password = "MatKhau"; 
+   ```
+
+5. **Cấu hình ESP32-CAM (app.py)**
+   ```cpp
+   #define ESP32_CAM_URL "http://172.16.65.189:81/stream"
+   ```
+
+6. **Chạy Server Flask (app.py)**
    ```bash
    python app.py
    ```
-
+   
 ## 🚀 Bắt đầu sử dụng
   ĐANG UPDATE
 
