@@ -31,7 +31,7 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 - **UNO1**: Hiển thị thời gian thực, hẹn giờ cho lợn ăn bằng động cơ bước và vít tải. Bật đèn tự động dựa trên cảm biến LDR.
 - **UNO2**: Đo nhiệt độ, độ ẩm (DHT11), đo mực nước trong máng (Water Sensor). Tự động bơm nước khi dưới ngưỡng.
 - **UNO3**: Cảm biến khí gas MQ135, cảnh báo bằng còi khi vượt ngưỡng.
-- **ESP32-CAM**: Giám sát chuồng lợn qua video trực tiếp.
+- **ESP32-CAM**: Giám sát lợn qua hình ảnh trực tiếp.
 - **AI (Google Speech-to-Text)**: Nhận diện giọng nói để điều khiển máy bơm, động cơ bước và đèn LED.
 
 ## ✨ Tính năng
@@ -45,8 +45,8 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 - **Kết nối WebSocket**: ESP32 gửi dữ liệu lên website theo thời gian thực
 
 ### 📊 Giám sát toàn diện
-- **Cảnh báo tự động**: Khi mức nước thấp, khí gas vượt ngưỡng
-- **Giao diện trực quan**: Hiển thị trạng thái thiết bị và thông tin môi trường
+- **Cảnh báo tự động**: Cảnh báo tự động khi hệ thống gặp rắc rối
+- **Giao diện trực quan**: Hiển thị trực quan thông số tại chuồng và hình ảnh trực tiếp.
 
 ## 🔧 Công nghệ sử dụng
 
