@@ -75,9 +75,10 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 ### ⭐️ UNO1
 
-**🛎SƠ ĐỒ ĐANG UPDATE**
+- **🛎SƠ ĐỒ ĐANG UPDATE**
 
-**🎲BẢNG HƯỚNG DẪN CẮM DÂY**
+- **🎲BẢNG HƯỚNG DẪN CẮM DÂY**
+
 | Thiết bị                | Chân trên thiết bị   | Kết nối Arduino UNO    | Ghi chú                 |
 |-------------------------|----------------------|------------------------|-------------------------|
 | RTC DS1302              | VCC                  | 5V                     | Cấp nguồn               |
@@ -100,9 +101,10 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 ### ⭐️ UNO2
 
-**🛎SƠ ĐỒ ĐANG UPDATE**
+- **🛎SƠ ĐỒ ĐANG UPDATE**
 
-**🎲BẢNG HƯỚNG DẪN CẮM DÂY**
+- **🎲BẢNG HƯỚNG DẪN CẮM DÂY**
+
 | Thiết bị             | Chân kết nối    | Kết nối đến        | Ghi chú                    |
 |----------------------|---------------|------------------|--------------------------------|
 | Cảm biến mực nước    | VCC           | 5V               | Cấp nguồn cho cảm biến         |
@@ -120,9 +122,10 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 ### ⭐️ UNO3
 
-**🛎SƠ ĐỒ ĐANG UPDATE**
+- **🛎SƠ ĐỒ ĐANG UPDATE**
 
-**🎲BẢNG HƯỚNG DẪN CẮM DÂY**
+- **🎲BẢNG HƯỚNG DẪN CẮM DÂY**
+
 | Thiết bị              | Chân trên thiết bị  | Kết nối Arduino UNO | Ghi chú                       |
 |-----------------------|---------------------|---------------------|-------------------------------|
 | Cảm biến khí MQ-135   | VCC                 | 5V                  | Cấp nguồn                     |
@@ -131,7 +134,7 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 | Còi báo động (Buzzer) | Chân dương (+)      | D6                  | Kích hoạt còi khi vượt ngưỡng |
 |                       | Chân âm (-)         | GND                 |                               |
 
-**Kết nối I2C giữa Arduino UNO & ESP32**
+### ⭐️ Kết nối I2C giữa Arduino UNO & ESP32
 
 | Thiết bị                                   | Chân trên thiết bị | Kết nối ESP32  | Ghi chú               |
 |--------------------------------------------|--------------------|----------------|-----------------------|
@@ -144,13 +147,13 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 
 📌 **Ghi chú:**  
-✔ **ESP32 là thiết bị trung tâm**, thu dữ liệu từ **3 Arduino UNO** qua **I2C** và điều khiển thiết bị qua WebSocket.  
-✔ **ESP32-CAM gửi dữ liệu video**, đẩy lên giao diện web.  
-✔ **Các cảm biến gửi dữ liệu về UNO**, UNO truyền dữ liệu qua ESP32 để hiển thị trên web.  
+- **ESP32 là thiết bị trung tâm**, thu dữ liệu từ **3 Arduino UNO** qua **I2C** và điều khiển thiết bị qua WebSocket.  
+- **ESP32-CAM gửi dữ liệu video**, đẩy lên giao diện web.  
+- **Các cảm biến gửi dữ liệu về UNO**, UNO truyền dữ liệu qua ESP32 để hiển thị trên web.  
   
 ### ⭐️ BẢNG MẠCH CẢ MÔ HÌNH
 
-**🛎SƠ ĐỒ ĐANG UPDATE**
+- **🛎SƠ ĐỒ ĐANG UPDATE**
   
 ## 📥 Cài đặt
 
