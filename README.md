@@ -64,8 +64,16 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 ### Phần cứng
 [![ESP32](https://img.shields.io/badge/ESP32-blue?style=for-the-badge)](https://www.espressif.com/)
 [![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/)
-[![DHT11](https://img.shields.io/badge/DHT11-Sensor-green?style=for-the-badge)]()
-[![MQ135](https://img.shields.io/badge/MQ135-Gas%20Sensor-red?style=for-the-badge)]()
+[![DHT11](https://img.shields.io/badge/DHT11-green?style=for-the-badge)]()
+[![MQ135](https://img.shields.io/badge/MQ135-red?style=for-the-badge)]()
+[![Stepper Motor](https://img.shields.io/badge/Stepper%20Motor-orange?style=for-the-badge)]()
+[![LDR](https://img.shields.io/badge/LDR%20-yellow?style=for-the-badge)]()
+[![Water Sensor](https://img.shields.io/badge/Water%20Sensor-blue?style=for-the-badge)]()
+[![Relay Module](https://img.shields.io/badge/Relay%20Module-purple?style=for-the-badge)]()
+[![ESP32-CAM](https://img.shields.io/badge/ESP32--CAM-ff69b4?style=for-the-badge)]()
+[![I2C Communication](https://img.shields.io/badge/I2C%20Communication-gray?style=for-the-badge)]()
+
+
 
 ### Phần mềm
 [![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
