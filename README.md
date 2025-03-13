@@ -1,4 +1,4 @@
-#  TRANG TRẠI THÔNG MINH
+# TRANG TRẠI THÔNG MINH
 
 <div align="center">
 
@@ -11,22 +11,21 @@
 [![Faculty of IT](https://img.shields.io/badge/Faculty%20of%20Information%20Technology-green?style=for-the-badge)]((https://fitdnu.net/))
 [![DaiNam University](https://img.shields.io/badge/DaiNam%20University-red?style=for-the-badge)](https://dainam.edu.vn)
 
-
 </div>
 
-<h3 align="center">🔬Advanced Academic Integrity Through AI Innovation</h3>
+<h3 align="center">🔬 Hệ thống nuôi lợn thông minh kết hợp AI điều khiển thiết bị</h3>
 
 <p align="center">
-  <strong>Hệ thống nuôi lợn thông minh kết hợp với AI để điều khiến thiết bị</strong>
+  <strong>Giải pháp ứng dụng IoT và AI vào chăn nuôi hiện đại</strong>
 </p>
 
 <p align="center">
   <a href="#-architecture">Hệ thống</a> •
-  <a href="#-key-features">Features</a> •
-  <a href="#-tech-stack">Tech Stack</a> •
-  <a href="#-installation">Installation</a> •
-  <a href="#-getting-started">Getting Started</a> •
-  <a href="#-documentation">Docs</a>
+  <a href="#-key-features">Tính năng</a> •
+  <a href="#-tech-stack">Công nghệ</a> •
+  <a href="#-installation">Cài đặt</a> •
+  <a href="#-getting-started">Bắt đầu</a> •
+  <a href="#-documentation">Tài liệu</a>
 </p>
 
 ## 🏗️ Hệ thống
@@ -35,163 +34,94 @@
   <img src="images/HeThong.png" alt="System Architecture" width="800"/>
 </p>
 
-The system employs a three-tier architecture:
+Hệ thống trang trại thông minh được xây dựng với các thành phần chính:
 
-1. **📄 Document Processing Layer**: Extracts text from PDFs, segments into sentences, and generates embeddings
-2. **💾 Storage Layer**: Stores document metadata in PostgreSQL and vector embeddings in Milvus
-3. **🔎 Search Layer**: Performs high-performance similarity searches and generates detailed reports
+- **ESP32 (Master)**: Nhận dữ liệu từ các Arduino UNO, gửi lên website qua Flask + WebSocket.
+- **UNO1**: Hiển thị thời gian thực, hẹn giờ cho lợn ăn bằng động cơ bước và vít tải. Bật đèn tự động dựa trên cảm biến LDR.
+- **UNO2**: Đo nhiệt độ, độ ẩm (DHT11), đo mực nước máng (Water Sensor). Tự động bơm nước khi dưới ngưỡng.
+- **UNO3**: Cảm biến khí gas MQ135, cảnh báo bằng còi khi vượt ngưỡng.
+- **ESP32-CAM**: Giám sát chuồng lợn bằng video stream.
+- **AI (Google Speech-to-Text)**: Nhận diện giọng nói để điều khiển máy bơm, động cơ bước và đèn LED.
 
-## ✨ Key Features
+## ✨ Tính năng
 
-### 🧠 Advanced AI Technology
-- **Semantic Analysis Engine**: Powered by state-of-the-art transformer models
-- **Multi-lingual Support**: Optimized for Vietnamese and English content
-- **Context-Aware Detection**: Understanding beyond simple text matching
+### 🧠 Công nghệ AI tiên tiến
+- **Nhận diện giọng nói**: AI chuyển giọng nói thành văn bản (Google STT), nhận diện lệnh điều khiển.
+- **Tích hợp WebSocket**: Điều khiển thiết bị từ xa qua website.
+- **Giám sát thông minh**: Thu thập dữ liệu từ cảm biến, tự động hóa quá trình chăn nuôi.
 
-### ⚡ High-Performance Architecture
-- **Vector Search Technology**: Using Milvus for lightning-fast similarity search
-- **Parallel Processing**: Efficient handling of large document collections
-- **Scalable Infrastructure**: Designed for institutional deployment
+### ⚡ Kiến trúc hiệu suất cao
+- **Giao tiếp I2C**: UNO gửi dữ liệu nhanh chóng về ESP32 Master.
+- **Xử lý thời gian thực**: Cập nhật dữ liệu liên tục trên giao diện web.
+- **Cảnh báo tức thời**: Hệ thống báo động khi có sự cố (khí gas, nước cạn, nhiệt độ cao).
 
-### 📊 Comprehensive Analysis
-- **Visual Results**: Interactive visualization of matched content
-- **Detailed Reports**: Page-by-page similarity analysis
-- **Evidence Mapping**: Precise location of potential matches
-
-## 🔧 Tech Stack
+## 🔧 Công nghệ sử dụng
 
 <div align="center">
 
-### Core Technologies
-[![Docker](https://img.shields.io/badge/Docker-9ae5ff?style=for-the-badge&logo=docker&logoColor=blue)](https://www.docker.com/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-19354c?style=for-the-badge&logo=HuggingFace&logoColor=ffbf00)](https://huggingface.co/sentence-transformers)
-### Database Systems
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Milvus](https://img.shields.io/badge/Milvus-00A1EA?style=for-the-badge&logo=milvus&logoColor=white)](https://milvus.io/)
+### Phần cứng
+[![ESP32](https://img.shields.io/badge/ESP32-blue?style=for-the-badge)](https://www.espressif.com/)
+[![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/)
+[![DHT11](https://img.shields.io/badge/DHT11-Sensor-green?style=for-the-badge)]()
+[![MQ135](https://img.shields.io/badge/MQ135-Gas%20Sensor-red?style=for-the-badge)]()
+
+### Phần mềm
+[![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![WebSocket](https://img.shields.io/badge/WebSocket-0078D7?style=for-the-badge)]()
+[![Google Speech-to-Text](https://img.shields.io/badge/Google%20STT-yellow?style=for-the-badge)](https://cloud.google.com/speech-to-text)
 
 </div>
 
-## 📥 Installation
+## 📥 Cài đặt
 
-### 🛠️ Prerequisites
+### 🛠️ Yêu cầu hệ thống
 
-- 🐍 **Python** `3.8+` - Core programming language
-- 🐘 **PostgreSQL** `12+` - Relational database for metadata
-- 🔍 **Milvus** `2.x` - Vector database for similarity search
-- 🐳 **Docker & Docker Compose** - Container management
-- 💾 **RAM** `8GB+` - Recommended for optimal performance
-- 💻 **CPU** `4+ cores` - For parallel processing
-- 🖴 **Storage** `10GB+` - For document storage and embeddings
+- 🐍 **Python** `3.8+`
+- 📡 **ESP32 & Arduino IDE**
+- 💾 **RAM** `4GB+`
+- 📶 **WiFi** kết nối internet
 
-### 🗃️ Database Setup
+### ⚙️ Thiết lập môi trường
 
-1. 🐘 **PostgreSQL Setup**
+1. **Cài đặt thư viện Python**
    ```bash
-   # Start PostgreSQL service
-   docker run -d \
-     --name postgres \
-     -e POSTGRES_USER=similarity \
-     -e POSTGRES_PASSWORD=123456 \
-     -e POSTGRES_DB=Sentence_Similarity \
-     -p 5434:5432 \
-     postgres:12
+   pip install flask flask-socketio google-cloud-speech
+   ```
+2. **Nạp code vào ESP32 & Arduino**
+   - Sử dụng Arduino IDE nạp code cho UNO.
+   - Sử dụng ESP-IDF hoặc Arduino IDE để nạp code cho ESP32.
+
+3. **Chạy Server Flask**
+   ```bash
+   python app.py
    ```
 
-2. 🔍 **Milvus Setup**
-   ```bash
-   # Download Milvus docker-compose file
-   wget https://github.com/milvus-io/milvus/releases/download/v2.3.3/milvus-standalone-docker-compose.yml -O docker-compose.yml
+## 🚀 Bắt đầu sử dụng
 
-   # Start Milvus
-   docker-compose up -d
-   ```
-
-### ⚙️ Project Setup
-
-1. 📦 **Clone Repository**
-   ```bash
-   git clone https://github.com/drkhanusa/DNU_PlagiarismChecker.git
-   cd DNU_PlagiarismChecker
-   ```
-
-2. 🌟 **Create Virtual Environment**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # Windows: venv\Scripts\activate
-   ```
-
-3. 📚 **Install Dependencies**
-   ```bash
-   pip install -e .
-   ```
-
-4. ⚡ **Environment Configuration**
-   ```bash
-   # Copy example environment file
-   cp .env.example .env
-
-   # Edit .env with your settings
-   # Example configuration:
-   DATABASE_URL=postgresql://similarity:123456@localhost:5434/Sentence_Similarity
-   MILVUS_HOST=localhost
-   MILVUS_PORT=19530
-   ```
-
-5. 🔄 **Initialize Database**
-   ```bash
-   # Create database tables
-   python setup_database.py
-
-   # Initialize Milvus collection
-   python create_milvus_db.py
-   ```
-
-## 🚀 Getting Started
-
-### ⚡ Quick Start
+### 📡 Gửi lệnh giọng nói
 ```python
-from plagiarism_checker import check_plagiarism_details
-
-# Check a document
-results = check_plagiarism_details(
-    file_path="path/to/document.pdf",
-    min_similarity=0.9
-)
-
-# View results
-print(f"Overall Similarity: {results['data']['total_percent']}%")
-for doc in results['data']['similarity_documents']:
-    print(f"Match: {doc['name']} - {doc['similarity_value']}%")
+from speech_control import send_command
+send_command("bật đèn")
 ```
 
-### 📥 Adding Documents to Database
+### 📊 Xem dữ liệu cảm biến
 ```python
-from create_corpus import CorpusCreator
-
-creator = CorpusCreator()
-creator.process_document("path/to/document.pdf")
+from get_sensor_data import get_data
+print(get_data())
 ```
 
-## 📚 Documentation
+## 📚 Tài liệu
 
-For detailed documentation, please visit our [Wiki](https://github.com/drkhanusa/DNU_PlagiarismChecker/wiki) or refer to the following sections:
-- 📖 [Installation Guide](docs/installation.md)
-- 👥 [User Manual](docs/user-manual.md)
-- 🔧 [API Reference](docs/api-reference.md)
-- 🤝 [Contributing Guidelines](docs/contributing.md)
+- 📖 [Hướng dẫn cài đặt](docs/installation.md)
+- 🎛 [Cấu hình ESP32 & Arduino](docs/esp32-arduino.md)
+- 🤖 [Sử dụng AI nhận diện giọng nói](docs/speech-ai.md)
 
-## 📝 License
+## 📝 Giấy phép
 
-© 2024 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
+© 2025 AIoTLab, Khoa CNTT, Đại học Đại Nam. Bản quyền thuộc về nhóm phát triển.
 
 ---
 
 <div align="center">
 
-### Made with 💻 by AIoTLab at DaiNam University
-
-[Website](https://fit.dainam.edu.vn) • [GitHub](https://github.com/drkhanusa) • [Contact Us](mailto:contact@dainam.edu.vn)
-
-</div>
+### 🚀 Được
