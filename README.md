@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="#-architecture">Architecture</a> •
+  <a href="#-architecture">Hệ thống</a> •
   <a href="#-key-features">Features</a> •
   <a href="#-tech-stack">Tech Stack</a> •
   <a href="#-installation">Installation</a> •
@@ -29,7 +29,7 @@
   <a href="#-documentation">Docs</a>
 </p>
 
-## 🏗️ Architecture
+## 🏗️ Hệ thống
 
 <p align="center">
   <img src="images/HeThong.png" alt="System Architecture" width="800"/>
