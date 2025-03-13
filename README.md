@@ -75,8 +75,45 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 ### ⭐️ UNO1
   ĐANG UPDATE
+  
+| Thiết bị                | Chân trên thiết bị   | Kết nối Arduino UNO    | Ghi chú                 |
+|-------------------------|----------------------|------------------------|-------------------------|
+| RTC DS1302              | VCC                  | 5V                     | Cấp nguồn               |
+|                         | GND                  | GND                    |                         |
+|                         | RST                  | D5                     | Chân Reset              |
+|                         | DAT                  | D7                     | Chân Data               |
+|                         | CLK                  | D6                     | Chân Clock              |
+| Động cơ bước 28BYJ-48   | VCC                  | 5V                     | Cấp nguồn               |
+|                         | GND                  | GND                    |                         |
+|                         | IN1                  | D8                     | Điều khiển Stepper      |
+|                         | IN2                  | D10                    | Điều khiển Stepper      |
+|                         | IN3                  | D9                     | Điều khiển Stepper      |
+|                         | IN4                  | D11                    | Điều khiển Stepper      |
+| Cảm biến ánh sáng (LDR) | VCC                  | 5V                     | Cấp nguồn               |
+|                         | GND                  | GND                    |                         |
+|                         | A0                   | A0                     | Đọc giá trị ánh sáng    |
+| Đèn LED                 | Chân dài (+)         | D2                     | Điều khiển bật/tắt      |
+|                         | Chân ngắn (-)        | GND                    |                         |
+
+
 ### ⭐️ UNO2
   ĐANG UPDATE
+  
+| Thiết bị             | Chân kết nối    | Kết nối đến        | Ghi chú                    |
+|----------------------|---------------|------------------|--------------------------------|
+| Cảm biến mực nước    | VCC           | 5V               | Cấp nguồn cho cảm biến         |
+|                      | GND           | GND              |                                |
+|                      | A0            | A0               | Đọc giá trị mực nước           |
+| Cảm biến DHT11       | VCC           | 5V               | Cấp nguồn cho cảm biến         |
+|                      | GND           | GND              |                                |
+|                      | DATA          | D4               | Truyền dữ liệu nhiệt độ, độ ẩm |
+| Rơ-le điều khiển bơm | IN            | D7               | Điều khiển bật/tắt rơ-le       |
+|                      | VCC           | 5V               | Cấp nguồn cho rơ-le            |
+|                      | GND           | GND              |                                |
+| Máy bơm nước         | COM (Relay)   | Cực dương nguồn  | Nối với nguồn bơm              |
+|                      | NO (Relay)    | Cực dương bơm    | Rơ-le đóng mới cấp nguồn       |
+|                      | Cực âm bơm    | Cực âm nguồn     | Hoàn tất mạch điện             |
+
 ### ⭐️ UNO3
   ĐANG UPDATE
 ### ⭐️ BẢNG MẠCH CẢ MÔ HÌNH
