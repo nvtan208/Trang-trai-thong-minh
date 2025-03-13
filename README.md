@@ -73,7 +73,7 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 ## 🌍 BẢNG MẠCH
 
-###⭐️ UNO1
+### ⭐️ UNO1
 
 **SƠ ĐỒ ĐANG UPDATE**
 
