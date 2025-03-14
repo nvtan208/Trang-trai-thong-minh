@@ -97,7 +97,7 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 |                         | IN4                  | D11                    | Điều khiển Stepper      |
 | Cảm biến ánh sáng (LDR) | VCC                  | 5V                     | Cấp nguồn               |
 |                         | GND                  | GND                    |                         |
-|                         | A0                   | A0                     | Đọc giá trị ánh sáng    |
+|                         | D0                   | A0                     | Đọc giá trị ánh sáng    |
 | Đèn LED                 | Chân dài (+)         | D2                     | Điều khiển bật/tắt      |
 |                         | Chân ngắn (-)        | GND                    |                         |
 
