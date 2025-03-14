@@ -109,7 +109,7 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 - **🎲 Bảng hướng dẫn cắm dây**
 
-| Thiết bị             | Chân kết nối    | Kết nối đến        | Ghi chú                    |
+| Thiết bị             | Chân kết nối  | Kết nối Arduino UNO        | Ghi chú                    |
 |----------------------|---------------|------------------|--------------------------------|
 | Cảm biến mực nước    | + (VCC)       | 5V               | Cấp nguồn cho cảm biến         |
 |                      | - (GND)       | GND              |                                |
