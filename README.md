@@ -77,9 +77,10 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 ### ⭐️ UNO1
 
-- **🛎SƠ ĐỒ ĐANG UPDATE**
+- **🛎Sơ đồ**
+<img src="images/UNO1.png" alt="System Architecture" width="800"/>
 
-- **🎲BẢNG HƯỚNG DẪN CẮM DÂY**
+- **🎲 Bảng hướng dẫn cắm dây**
 
 | Thiết bị                | Chân trên thiết bị   | Kết nối Arduino UNO    | Ghi chú                 |
 |-------------------------|----------------------|------------------------|-------------------------|
@@ -103,9 +104,10 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 ### ⭐️ UNO2
 
-- **🛎SƠ ĐỒ ĐANG UPDATE**
+- **🛎Sơ đồ**
+<img src="images/UNO1.png" alt="System Architecture" width="800"/>
 
-- **🎲BẢNG HƯỚNG DẪN CẮM DÂY**
+- **🎲 Bảng hướng dẫn cắm dây**
 
 | Thiết bị             | Chân kết nối    | Kết nối đến        | Ghi chú                    |
 |----------------------|---------------|------------------|--------------------------------|
@@ -124,9 +126,10 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 ### ⭐️ UNO3
 
-- **🛎SƠ ĐỒ ĐANG UPDATE**
+- **🛎Sơ đồ**
+<img src="images/UNO1.png" alt="System Architecture" width="800"/>
 
-- **🎲BẢNG HƯỚNG DẪN CẮM DÂY**
+- **🎲 Bảng hướng dẫn cắm dây**
 
 | Thiết bị              | Chân trên thiết bị  | Kết nối Arduino UNO | Ghi chú                       |
 |-----------------------|---------------------|---------------------|-------------------------------|
@@ -152,10 +155,6 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 - **ESP32 là thiết bị trung tâm**, thu dữ liệu từ **3 Arduino UNO** qua **I2C** và điều khiển thiết bị qua WebSocket.  
 - **ESP32-CAM gửi dữ liệu video**, đẩy lên giao diện web.  
 - **Các cảm biến gửi dữ liệu về UNO**, UNO truyền dữ liệu qua ESP32 để hiển thị trên web.  
-  
-### ⭐️ BẢNG MẠCH CẢ MÔ HÌNH
-
-- **🛎SƠ ĐỒ ĐANG UPDATE**
   
 ## 📥 CÀI ĐẶT
 
