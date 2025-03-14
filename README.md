@@ -1,4 +1,4 @@
-# TRANG TRẠI THÔNG MINH
+<h1 align="center">TRANG TRẠI THÔNG MINH</h1>
 
 <div align="center">
 
