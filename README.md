@@ -111,9 +111,9 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 | Thiết bị             | Chân kết nối    | Kết nối đến        | Ghi chú                    |
 |----------------------|---------------|------------------|--------------------------------|
-| Cảm biến mực nước    | VCC           | 5V               | Cấp nguồn cho cảm biến         |
-|                      | GND           | GND              |                                |
-|                      | A0            | A0               | Đọc giá trị mực nước           |
+| Cảm biến mực nước    | + (VCC)       | 5V               | Cấp nguồn cho cảm biến         |
+|                      | - (GND)       | GND              |                                |
+|                      | S             | A0               | Đọc giá trị mực nước           |
 | Cảm biến DHT11       | VCC           | 5V               | Cấp nguồn cho cảm biến         |
 |                      | GND           | GND              |                                |
 |                      | DATA          | D4               | Truyền dữ liệu nhiệt độ, độ ẩm |
