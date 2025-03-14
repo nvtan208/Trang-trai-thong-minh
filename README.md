@@ -63,6 +63,8 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 [![Relay Module](https://img.shields.io/badge/Relay%20Module-purple?style=for-the-badge)]()
 [![ESP32-CAM](https://img.shields.io/badge/ESP32--CAM-ff69b4?style=for-the-badge)]()
 [![I2C](https://img.shields.io/badge/I2C-green?style=for-the-badge)]()
+[![RTC DS1307](https://img.shields.io/badge/RTC%20DS1307-orange?style=for-the-badge)]()
+
 
 ### Phần mềm
 [![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
