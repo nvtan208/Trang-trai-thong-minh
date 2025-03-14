@@ -105,7 +105,7 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 ### ⭐️ UNO2
 
 - **🛎Sơ đồ**
-<img src="images/UNO1.png" alt="System Architecture" width="800"/>
+<img src="images/UNO2.png" alt="System Architecture" width="800"/>
 
 - **🎲 Bảng hướng dẫn cắm dây**
      
@@ -127,7 +127,7 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 ### ⭐️ UNO3
 
 - **🛎Sơ đồ**
-<img src="images/UNO1.png" alt="System Architecture" width="800"/>
+<img src="images/UNO3.png" alt="System Architecture" width="800"/>
 
 - **🎲 Bảng hướng dẫn cắm dây**
 
@@ -140,6 +140,8 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 |                       | Chân âm (-)         | GND                 |                               |
 
 ### ⭐️ Kết nối I2C giữa Arduino UNO & ESP32
+
+<img src="images/I2C.png" alt="System Architecture" width="800"/>
 
 | Thiết bị                                   | Chân trên thiết bị | Kết nối ESP32  | Ghi chú               |
 |--------------------------------------------|--------------------|----------------|-----------------------|
