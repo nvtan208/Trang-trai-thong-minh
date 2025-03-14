@@ -120,9 +120,9 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 | Rơ-le điều khiển bơm | IN            | D7               | Điều khiển bật/tắt rơ-le       |
 |                      | VCC           | 5V               | Cấp nguồn cho rơ-le            |
 |                      | GND           | GND              |                                |
-| Máy bơm nước         | COM           | Cực dương nguồn  | Nối với nguồn bơm              |
+|                      | COM           | Cực dương nguồn  | Nối với nguồn bơm              |
 |                      | NO            | Cực dương bơm    | Rơ-le đóng mới cấp nguồn       |
-|                      | Cực âm bơm    | Cực âm nguồn     | Hoàn tất mạch điện             |
+| Máy bơm nước         | Cực âm bơm    | Cực âm nguồn     | Hoàn tất mạch điện             |
 
 ### ⭐️ UNO3
 
