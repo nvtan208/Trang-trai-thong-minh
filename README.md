@@ -174,7 +174,7 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
    
 2. **Nạp code vào ESP32 & Arduino**
    - Sử dụng Arduino IDE nạp code cho UNO.
-   - Sử dụng ESP-IDF hoặc Arduino IDE để nạp code cho ESP32.
+   - Sử dụng Arduino IDE để nạp code cho ESP32.
 
 3. **Cấu hình ESP32 và Flask Server (ESP32.ino)**
    ```cpp
