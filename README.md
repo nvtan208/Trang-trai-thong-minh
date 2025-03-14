@@ -62,7 +62,7 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 [![Water Sensor](https://img.shields.io/badge/Water%20Sensor-blue?style=for-the-badge)]()
 [![Relay Module](https://img.shields.io/badge/Relay%20Module-purple?style=for-the-badge)]()
 [![ESP32-CAM](https://img.shields.io/badge/ESP32--CAM-ff69b4?style=for-the-badge)]()
-[![I2C Communication](https://img.shields.io/badge/I2C%20Communication-gray?style=for-the-badge)]()
+[![I2C](https://img.shields.io/badge/I2C%20Communication-gray?style=for-the-badge)]()
 
 ### Phần mềm
 [![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
