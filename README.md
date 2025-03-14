@@ -19,7 +19,7 @@
   <strong>Giải pháp ứng dụng IoT và AI vào chăn nuôi hiện đại</strong>
 </p>
 
-## 🏗️ Hệ thống
+## 🏗️ HỆ THỐNG
 
 <p align="center">
   <img src="images/HeThong.png" alt="System Architecture" width="800"/>
@@ -34,7 +34,7 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 - **ESP32-CAM**: Giám sát lợn qua hình ảnh trực tiếp.
 - **AI (Google Speech-to-Text)**: Nhận diện giọng nói để điều khiển máy bơm, động cơ bước và đèn LED.
 
-## ✨ Tính năng
+## ✨ TÍNH NĂNG
 
 ### 🧠 Công nghệ AI tiên tiến
 - **Nhận diện giọng nói**: Chuyển đổi giọng nói thành lệnh điều khiển.
@@ -48,7 +48,7 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 - **Cảnh báo tự động**: Cảnh báo tự động khi hệ thống gặp rắc rối
 - **Giao diện trực quan**: Hiển thị trực quan thông số tại chuồng và hình ảnh trực tiếp.
 
-## 🔧 Công nghệ sử dụng
+## 🔧 CÔNG NGHỆ SỬ DỤNG
 
 <div align="center">
 
@@ -157,7 +157,7 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 - **🛎SƠ ĐỒ ĐANG UPDATE**
   
-## 📥 Cài đặt
+## 📥 CÀI ĐẶT
 
 ### 🛠️ Yêu cầu hệ thống
 
@@ -200,10 +200,10 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
    python app.py
    ```
    
-## 🚀 Bắt đầu sử dụng
+## 🚀 SỬ DỤNG
   ĐANG UPDATE
 
-## 📝 Giấy phép
+## 📝 GIẤY PHÉP
 
 © 2025 NHÓM 8, CNTT16-02, ĐẠI HỌC ĐẠI NAM
 
