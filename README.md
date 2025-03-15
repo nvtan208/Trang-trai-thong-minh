@@ -205,7 +205,9 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
   ĐANG UPDATE
 
 ## 📝 GIẤY PHÉP
-
+<p align="center">
+  <img src="images/Poster.png" alt="System Architecture" width="800"/>
+</p>
 © 2025 NHÓM 8, CNTT16-02, ĐẠI HỌC ĐẠI NAM
 
 ---
