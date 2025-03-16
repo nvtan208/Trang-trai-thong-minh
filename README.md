@@ -13,7 +13,7 @@
 
 </div>
 
-<h3 align="center">🔬 Hệ thống nuôi lợn thông minh kết hợp AI điều khiển thiết bị</h3>
+## <h3 align="center">🔬 Hệ thống nuôi lợn thông minh kết hợp AI điều khiển thiết bị</h3>
 
 <p align="center">
   <strong>Giải pháp ứng dụng IoT và AI vào chăn nuôi hiện đại</strong>
