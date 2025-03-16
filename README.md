@@ -177,25 +177,25 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
    - Sử dụng Arduino IDE để nạp code cho ESP32.
    - Sử dụng Arduino IDE để nạp code cho CameraWebServer.
 
-3. **Cấu hình ESP32 và Flask Server (ESP32.ino)**
+3. **Cấu hình ESP32 và Flask Server (`ESP32.ino`)**
    ```cpp
    const char* ssid = "TenWiFi"; 
    const char* password = "MatKhau"; 
-   const char* server_url = "http://localhost:5000/update";  // Địa chỉ Flask server
+   const char* server_url = "http://localhost:5000/update";  
    ```
 
-4. **Cấu hình CameraWebServer (CameraWebServer.ino)**
+4. **Cấu hình CameraWebServer (`CameraWebServer.ino`)**
    ```cpp
    const char* ssid = "TenWiFi"; 
    const char* password = "MatKhau"; 
    ```
 
-5. **Cấu hình ESP32-CAM (app.py)**
+5. **Cấu hình ESP32-CAM (`app.py`)**
    ```cpp
    #define ESP32_CAM_URL "http://172.16.65.189:81/stream"
    ```
 
-6. **Chạy Server Flask (app.py)**
+6. **Chạy Server Flask (`app.py`)**
    ```bash
    python app.py
    ```
