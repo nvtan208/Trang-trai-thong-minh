@@ -73,14 +73,14 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 </div>
 
-## 🌍 BẢNG MẠCH
+## 🧮 BẢNG MẠCH
 
-### ⭐️ UNO1
+### 🔩 UNO1
 
 - **🛎Sơ đồ**
 <img src="images/UNO1.png" alt="System Architecture" width="800"/>
 
-- **🎲 Bảng hướng dẫn cắm dây**
+- **⛓️‍💥 Bảng hướng dẫn cắm dây**
 
 | Thiết bị                | Chân trên thiết bị   | Kết nối Arduino UNO    | Ghi chú                 |
 |-------------------------|----------------------|------------------------|-------------------------|
@@ -102,12 +102,12 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 |                         | Chân ngắn (-)        | GND                    |                         |
 
 
-### ⭐️ UNO2
+### 🔩 UNO2
 
 - **🛎Sơ đồ**
 <img src="images/UNO2.png" alt="System Architecture" width="800"/>
 
-- **🎲 Bảng hướng dẫn cắm dây**
+- **⛓️‍💥 Bảng hướng dẫn cắm dây**
      
 | Thiết bị             | Chân kết nối  | Kết nối Arduino UNO  | Ghi chú                        |
 |----------------------|---------------|----------------------|--------------------------------|
@@ -124,12 +124,12 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 |                      | NO            | Cực dương bơm        | Rơ-le đóng mới cấp nguồn       |
 | Máy bơm nước         | Cực âm bơm    | Cực âm nguồn         | Hoàn tất mạch điện             |
 
-### ⭐️ UNO3
+### 🔩 UNO3
 
 - **🛎Sơ đồ**
 <img src="images/UNO3.png" alt="System Architecture" width="800"/>
 
-- **🎲 Bảng hướng dẫn cắm dây**
+- **⛓️‍💥 Bảng hướng dẫn cắm dây**
 
 | Thiết bị              | Chân trên thiết bị  | Kết nối Arduino UNO | Ghi chú                       |
 |-----------------------|---------------------|---------------------|-------------------------------|
@@ -200,14 +200,17 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
    ```bash
    python app.py
    ```
-   
+## 📰 Poster
+<p align="center">
+  <img src="baocao/Poster.png" alt="System Architecture" width="800"/>
+</p>
+
 ## 🚀 SỬ DỤNG
   ĐANG UPDATE
 
 ## 📝 GIẤY PHÉP
-<p align="center">
-  <img src="baocao/Poster.png" alt="System Architecture" width="800"/>
-</p>
+
+
 © 2025 NHÓM 8, CNTT16-02, ĐẠI HỌC ĐẠI NAM
 
 ---
