@@ -77,7 +77,7 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 ### 🔩 UNO1
 
-- **🛎Sơ đồ**
+- **🛎 Sơ đồ**
 <img src="images/UNO1.png" alt="System Architecture" width="800"/>
 
 - **⛓️‍💥 Bảng hướng dẫn cắm dây**
@@ -104,7 +104,7 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 ### 🔩 UNO2
 
-- **🛎Sơ đồ**
+- **🛎 Sơ đồ**
 <img src="images/UNO2.png" alt="System Architecture" width="800"/>
 
 - **⛓️‍💥 Bảng hướng dẫn cắm dây**
@@ -126,7 +126,7 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 ### 🔩 UNO3
 
-- **🛎Sơ đồ**
+- **🛎 Sơ đồ**
 <img src="images/UNO3.png" alt="System Architecture" width="800"/>
 
 - **⛓️‍💥 Bảng hướng dẫn cắm dây**
