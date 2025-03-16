@@ -15,10 +15,6 @@
 
 <h2 align="center">🔬 Hệ thống nuôi lợn thông minh kết hợp AI điều khiển thiết bị</h2>
 
-<p align="center">
-  <strong>Giải pháp ứng dụng IoT và AI vào chăn nuôi hiện đại</strong>
-</p>
-
 ## 🏗️ HỆ THỐNG
 
 <p align="center">
