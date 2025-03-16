@@ -174,9 +174,10 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
    pip install flask flask-socketio opencv-python
    ```
    
-2. **Nạp code vào ESP32 & Arduino**
+2. **Nạp code vào ESP32,CameraWebServer & Arduino**
    - Sử dụng Arduino IDE nạp code cho UNO.
    - Sử dụng Arduino IDE để nạp code cho ESP32.
+   - Sử dụng Arduino IDE để nạp code cho CameraWebServer.
 
 3. **Cấu hình ESP32 và Flask Server (ESP32.ino)**
    ```cpp
