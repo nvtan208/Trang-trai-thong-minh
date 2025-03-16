@@ -137,7 +137,7 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 | Còi báo động (Buzzer) | Chân dương (+)      | D6                  | Kích hoạt còi khi vượt ngưỡng |
 |                       | Chân âm (-)         | GND                 |                               |
 
-### ⭐️ Kết nối I2C giữa Arduino UNO & ESP32
+### 🔩 Kết nối I2C giữa Arduino UNO & ESP32
 
 <img src="images/I2C.png" alt="System Architecture" width="800"/>
 
