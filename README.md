@@ -15,6 +15,8 @@
 
 <h2 align="center">🔬 Hệ thống nuôi lợn thông minh kết hợp AI điều khiển thiết bị</h2>
 
+<p align="center">Hệ thống Nuôi lợn Thông minh Kết hợp AI là giải pháp hiện đại ứng dụng IoT và trí tuệ nhân tạo (AI) nhằm tối ưu hóa quy trình chăn nuôi. Hệ thống sử dụng ESP32 làm trung tâm điều khiển, kết nối với các cảm biến môi trường (DHT11, MQ135, Water Sensor), động cơ bước cho hệ thống cho ăn tự động, và camera ESP32-CAM để giám sát trực tiếp. AI hỗ trợ phân tích dữ liệu, dự đoán điều kiện nuôi và tự động điều chỉnh thiết bị như máy bơm, quạt thông gió để đảm bảo môi trường lý tưởng. Toàn bộ hệ thống được quản lý từ xa qua giao diện Web sử dụng Flask và WebSocket, giúp nâng cao hiệu quả, tiết kiệm chi phí và đảm bảo sức khỏe đàn lợn.</p>
+  
 ## 🏗️ HỆ THỐNG
 
 <p align="center">
