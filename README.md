@@ -205,7 +205,14 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 </p>
 
 ## 🚀 SỬ DỤNG
-  ĐANG UPDATE
+1. **Cài đặt thư viện Python (app.py)**
+   ```bash
+   pip install SpeechRecognition pyaudio
+   ```
+2. **Click vào "Ấn zô đây"**
+
+3.  Bạn nói **Bật đèn** là đèn sẽ bật.
+
 
 ## 📝 GIẤY PHÉP
 
