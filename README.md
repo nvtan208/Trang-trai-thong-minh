@@ -206,11 +206,11 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 ## 🚀 SỬ DỤNG
 
-1. Click vào**Ấn zô đây** để sử dụng Mic của thiết bị để điều khiển thiết bị bằng dọng nói
+1. Click vào **Ấn zô đây** để sử dụng Mic của Laptop điều khiển thiết bị bằng giọng nói.
 
 2. Ví dụ bạn nói **Bật đèn** là đèn sẽ bật.
 
-📌 **Ghi chú:**: Khi bạn nói **Tự động** thì tất cả chức năng sẽ quay về chế độtự động, không phải ở trong chế độ thủ công điều khiển bằng giọng nói hoặc click trên website.
+📌 **Ghi chú:**: Khi bạn nói **Tự động** thì tất cả chức năng sẽ quay về chế độ tự động, không phải ở trong chế độ thủ công điều khiển bằng giọng nói hoặc thao tác trên website.
 
 ## 📝 GIẤY PHÉP
 
