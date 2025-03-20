@@ -210,6 +210,15 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 2. Ví dụ bạn nói **Bật đèn** là đèn sẽ bật.
 
+3. **Các lênh**
+
+| Lệnh               | 
+|--------------------|
+| Bật đèn / Tắt đèn  | 
+| Cho ăn / Ngừng ăn  |
+| Bật bơm / Tắt Bơm  |
+| Tự động            |
+
 📌 **Ghi chú:** Khi bạn nói **Tự động** thì tất cả chức năng sẽ quay về chế độ tự động, không phải ở trong chế độ thủ công điều khiển bằng giọng nói hoặc thao tác trên website.
 
 ## 📝 GIẤY PHÉP
