@@ -225,7 +225,7 @@ Hệ thống trang trại thông minh được xây dựng với các thành ph�
 
 
 © 2025 NHÓM 8, CNTT16-02, ĐẠI HỌC ĐẠI NAM
-
----
-
+<p align="center">
+  <img src="images/3.jpg" alt="System Architecture" width="800"/>
+</p>
 <div align="center">
